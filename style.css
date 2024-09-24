@@ -1,0 +1,91 @@
+.body{
+    height: 100vh;
+    margin: 10px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(136, 132, 165);
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.header div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.header button{
+    border: solid 1px black;
+    background-color: rgb(136, 132, 165);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.container .form{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    background-color: rgb(136, 132, 165);
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 5px;
+}
+
+.form-group label{
+    flex: 0 0 100px;
+}
+
+.form button{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.form input, select{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    align-items: start;
+    background-color: rgb(136, 132, 165);
+    padding: 10px; 
+    border-radius: 8px;
+    gap: 15px;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+}

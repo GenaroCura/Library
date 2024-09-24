@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <img src="images/library-book-svgrepo-com.svg" alt="icono">
+                <h1>My library</h1>
+            </div>
+            <div>
+                <button id="addBook">Add your book</button>
+            </div>
+        </div>
+            <form id="bookForm" class="form">   
+                <legend><h2>Create your book</h2></legend>
+                <div class="form-group">
+                    <label for="title">Title: </label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="author">Author: </label>
+                    <input type="text" id="author" name="author" required>
+                </div>
+                <div class="form-group">
+                    <label for="pages">Pages: </label>
+                    <input type="number" id="pages" name="pages" required>
+                </div>
+                <div class="form-group">
+                    <label for="read">Read: </label>
+                    <select name="read" id="read" required>
+                        <option disabled selected value="">Check option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+            <section>
+                <div class="cardContainer" id="cardContainer">
+                </div>
+            </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
