@@ -74,9 +74,9 @@
 }
 
 .cardContainer {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr 1fr; 
-    align-items: start;
+    align-items: center;
     background-color: rgb(136, 132, 165);
     padding: 10px; 
     border-radius: 8px;
